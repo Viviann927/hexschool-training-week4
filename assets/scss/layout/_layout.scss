@@ -1,0 +1,160 @@
+.container{
+    /* pc */ 
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1320px;
+    /* pad */
+    @media (max-width: 768px) {
+        max-width: 720px;
+    }
+    /* phone */
+    @media (max-width: 375px) {
+        max-width: 372px;
+    }
+}
+.d-flex{
+    display: flex;
+}
+.gap48{
+    gap: 48px;
+}
+.gap32{
+    gap: 32px;
+}
+.gap24{
+    gap: 24px;
+}
+.ml64{
+    margin-left: 64px;
+}
+.mb48{
+    margin-bottom: 48px;
+}
+.mb32{
+    margin-bottom: 32px;
+}
+.m16{
+    margin: 16px;
+}
+.mb8{
+    margin-bottom: 8px;
+}
+.mb4{
+    margin-bottom: 4px;
+}
+.mb0{
+    margin-bottom: 0px;
+}
+.ptb-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @media(max-width:767px){
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+}
+.pb72{
+    padding-bottom: 72px;
+}
+.pb24{
+    padding-bottom: 24px;
+}
+.pb14{
+    padding-bottom: 14px;
+}
+.p16{
+    padding: 16px;
+}
+.pb8{
+    padding-bottom: 8px;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.aib{
+    align-items: baseline;
+}
+.asc{
+    align-self: center;
+}
+.asfe{
+    align-self: flex-end;
+}
+.tac{
+    text-align: center;
+}
+.tar{
+    text-align: right;
+}
+.tal{
+    text-align: left;
+}
+.fd-column{
+    flex-direction: column;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 14px;
+}
+.primary{
+    color: $primary;
+}
+.red-blood{
+    color: $red-blood;
+}
+.gray{
+    color: $gray;
+}
+.white{
+    color: $white;
+}
+.change_color:hover{
+    background: $red-blood;
+    color: $white;
+    cursor: pointer;
+}
+.fw-medium{
+    font-weight: 500;
+}
+.fw-bold{
+    font-weight: 700;
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.fw-R-bold{
+    font-weight: 900;
+}
+.italic{
+    font-style: italic;
+}
+.material-icons-outlined{
+    font-family: 'Material Icons Outlined';
+}
+.f36{
+    font-size: 36px;
+}
+.f40{
+    font-size: 40px;
+}

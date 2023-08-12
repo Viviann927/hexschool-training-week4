@@ -1,0 +1,272 @@
+.banner{
+  background-image: url("../images/home-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media(max-width: 767px){
+    background-image: url("../images/home-header-sm.png");
+  }
+
+  .banner-item{
+      padding-top: 296px;
+      padding-bottom: 296px;
+
+      @media(max-width: 767px){
+        padding-top: 144px;
+        padding-bottom: 144px;
+      }
+
+      @media(max-width: 767px){
+        h3{
+            font-size: 16px;
+        }
+        h1{
+            font-size: 24px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+      }
+  }
+
+  a{
+      text-decoration: none;
+      background: $primary;
+      color: $white;
+      padding: 6px 12px; 
+  }
+
+  a:hover{
+      background: $red-blood;
+  }
+
+}
+
+.about{
+  background: $pink;
+
+  .title{
+      margin-bottom: 32px;
+      @media(max-width:992px){
+        max-width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 32px;
+      }
+      @media(max-width:767px){
+        font-size: 24px;
+      }
+
+  }
+
+  .d-flex{
+    @media(max-width:992px){
+        flex-wrap: wrap;
+        gap: 36px 24px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    @media(max-width:767px){
+        flex-direction: column;
+      }
+  }
+
+  .item{
+      width: calc(100% - 72px);
+      @media(max-width:992px){
+        width: calc((100% - 24px)/2);
+      }
+      @media(max-width:767px){
+        width: 100%;
+      }
+      
+      .item-pic{
+          width: 83.83px;
+          margin-bottom: 16px;
+      }
+  
+      .item-pic2{
+          width: 100px;
+      }
+
+      .mb-8{
+          margin-bottom: 8px;
+      }
+  }
+
+}
+
+.classical{
+
+  .mt-8{
+      margin-top: 8px;
+  }
+
+  .ul-clac{
+      max-width: calc(100% - 72px);
+      margin: 0 auto;
+
+      @media (max-width: 992px){
+        flex-direction: column;
+        align-items: center;
+      }
+      @media(max-width:767px){
+        .mb48{
+            font-size: 24px;
+        }
+      }
+  }
+
+
+  .clac{
+      width: calc((100% - 48px) / 3);
+
+      @media(max-width: 992px){
+        width: 50%;
+      }
+      @media(max-width:767px){
+        width: 100%;
+      }
+  }
+
+}
+
+.design{
+  background-image: url("../images/index-bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media(max-width: 992px){
+    background-image: url("../images/index-bg-md.png");
+}
+
+  .design_title{
+      color: $white;
+      @media(max-width:767px){
+        h2{
+            font-size: 24px;
+        }
+      }
+  }
+
+  .primary{
+    @media(max-width: 992px){
+        flex-direction: column;
+        gap: 24px;
+        padding-right: 36px;
+        padding-left: 36px;
+    }
+  }
+
+  .bg-w{
+      background: $white;
+
+      @media(max-width: 992px){
+        width: 100%;
+      }
+  }
+  .bg-w:hover{
+    background: $red-blood;
+    color: $white;
+    cursor: pointer;
+  }
+
+}
+
+.recommend{
+
+    @media(max-width:767px){
+        h2{
+            font-size: 24px;
+        }
+    }
+
+    .d-flex{
+        @media(max-width: 992px){
+            flex-wrap: wrap;
+        }
+    }
+
+    li{
+        border: 1px solid $bg-gray;
+        box-shadow: 0 2px 6px $shadow;
+
+        @media(max-width: 992px){
+            width: calc((100% - 24px)/2);
+        }
+
+        @media(max-width:767px){
+            width: 100%;
+        }
+    }
+
+    .bk{
+        color: $dark;
+    }
+
+    @media (max-width:992px){
+        .mb24{
+            margin-bottom: 24px;
+        }
+    }
+
+
+}
+
+.contact{
+  background-color: $pink;
+
+  .contact-us{
+      max-width: 636px;
+  }
+
+  @media(max-width:767px){
+        h2{
+            font-size: 24px;
+        }
+
+        h5{
+            font-size: 16px;
+        }
+    }
+
+  .item{
+      flex-direction: column;
+      gap: 16px;
+
+      .input{
+          border: 2px solid #000;
+          padding-left: 12px;
+          padding-bottom: 6px;
+          padding-top: 6px;
+          background-color: transparent;
+          width: 100%;
+      }
+
+      .resize-none{
+          resize: none;
+      }
+  }
+      
+  .submit{
+      
+      .btn{
+          background-color: $primary;
+          padding: 16px 0;
+          width: 60%;
+          display: block;
+          margin: 0 auto;
+          text-decoration: none;
+          color: $white;
+
+          @media(max-width:767px){
+            width: 100%;
+        }
+      }
+
+      .btn:hover{
+          background: $red-blood;
+      }
+
+  }
+}

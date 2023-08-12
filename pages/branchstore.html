@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./layout/head'); -%>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="store">
+        <div class="container">
+            <div class="title">
+              <h2 class="fw-R-bold mb32">門市據點</h2>
+              <div class="detail d-flex">
+                <span class="mr16">選擇地區</span>
+                <select name="country" id="country" class="select_country">
+                    <option value="台北中山旗艦店">台北中山旗艦店</option>
+                    <option value="台北綠園店">台北綠園店</option>
+                    <option value="台中清水旗艦店">台中清水旗艦店</option>
+                    <option value="高雄中正形象店">高雄中正形象店</option>
+                    <option value="高雄夢時代店">高雄夢時代店</option>
+                </select>
+              </div>
+              <div class="branch d-flex gap24">
+                <div class="branchstore_img">
+                    <img src="../assets/images/storepage-1.png" alt="台北中山旗艦店_pic">
+                    <div>
+                        <p>台北中山旗艦店</p>
+                        <div class="store_info">
+                            <ul>
+                                <li class="d-flex mb8 aic">
+                                    <span class="material-icons-outlined">call</span>
+                                    <h5>電話：(02)000-1234</h5>
+                                </li>
+                                <li class="d-flex mb8 aic">
+                                    <span class="material-icons-outlined">schedule</span>
+                                    <h5>營業時間：10:00-21:00</h5>
+                                </li>
+                                <li class="d-flex aib">
+                                    <span class="material-icons-outlined">location_on</span>
+                                    <h5>地址：台北市中山區南京東路25巷2-1號</h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="store_map"></div>
+              </div>
+            </div>            
+        </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

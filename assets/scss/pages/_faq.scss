@@ -1,0 +1,33 @@
+.title{
+    padding-top: 96px;
+    padding-bottom: 80px;
+    @media(max-width:767px){
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+    
+    h2{
+        border-left: 8px solid #9F1213;
+        padding-left: 16px;
+
+        @media(max-width:767px){
+            font-size: 24px;
+        }
+    }
+
+    h4{
+        margin-bottom: 24px;
+    }
+
+    .mb32{
+        margin-bottom: 32px;
+
+        @media(max-width:767px){
+            margin-bottom: 24px;
+        }
+    }
+    
+    h5{
+        margin-bottom: 8px;
+    }
+}
